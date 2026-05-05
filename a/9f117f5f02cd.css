@@ -1,0 +1,80 @@
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+ 
+}
+
+.modal-content {
+
+    display: block;
+    top:3vw;
+    left:10vw;
+    max-height: 80vh;
+    max-width: 80vw;
+    
+}
+
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#caption {
+    margin: auto;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    width: 80%;
+}
+
+/* SPA Transitions */
+#spa-content {
+    transition: opacity 0.4s cubic-bezier(0.4, 0, 0.2, 1), transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.spa-transitioning #spa-content {
+    opacity: 0;
+    transform: translateY(15px);
+}
+
+/* Enhanced Layout Styles */
+.CompanyLogoBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 350px;
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 12px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.CompanyLogoIMG {
+    max-width: 100%;
+    max-height: 400px;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+}
+
+.CompanyLogoIMG:hover {
+    transform: scale(1.02);
+}
+
+.banner_box_icon_text {
+    margin-top: 10px;
+    font-weight: 600;
+}

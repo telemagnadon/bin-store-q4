@@ -118,46 +118,46 @@ const SPA = {
                         <div class="col-xl-6">
                             <div class="cv_banner_img">
                                 <img src="${Maindata.mainprofilephoto}" id="MainProfilePic" class="img-fluid bnr-boy" loading="lazy">
-                                <img src="./Portfolio Responsive HTML Template_files/bnr-line.png" class="bnr-line" loading="lazy">
-                                <img src="./Portfolio Responsive HTML Template_files/bnr-star.png" class="bnr-star" loading="lazy">
-                                <img src="./Portfolio Responsive HTML Template_files/bnr-sqr.png" class="bnr-sqr" loading="lazy">
+                                <img data-cdn-src="Portfolio Responsive HTML Template_files/bnr-line" class="bnr-line" loading="lazy">
+                                <img data-cdn-src="Portfolio Responsive HTML Template_files/bnr-star" class="bnr-star" loading="lazy">
+                                <img data-cdn-src="Portfolio Responsive HTML Template_files/bnr-sqr" class="bnr-sqr" loading="lazy">
                             </div>
                         </div>
                         <div class="col-xl-6">
                             <div class="cv_banner_text">
-                                <h1>Hello! <span><img src="./Portfolio Responsive HTML Template_files/hand.svg" class="img-fluid"></span> I Am</h1>
+                                <h1>Hello! <span><img data-cdn-src="Portfolio Responsive HTML Template_files/hand" class="img-fluid"></span> I Am</h1>
                                 <h1 class="cv_profile_name">Rex Moran Loba</h1>
                                 <br>
                                 <div class="cv_banner_box">
                                     <div class="row">
                                         <div class="col-12"><a href="tel:+639497776001">
-                                            <img src="./icons/mobile.png" style="width: 20px;height: 20px; filter: brightness(0) invert(1);" class="cv_toggle_btn" alt="">
+                                            <img data-cdn-src="icons/mobile" style="width: 20px;height: 20px; filter: brightness(0) invert(1);" class="cv_toggle_btn" alt="">
                                             <h5 style="background-color: transparent; color:white;  text-transform: lowercase;"> <span style="text-transform: capitalize;">Mobile / WhatsApp / Viber:</span> 0949 777 6001</h5>
                                         </a></div>
                                     </div>
                                     <div class="row">
                                         <div class="col-12"><a href="mailto:rexm.loba@gmail.com">
-                                            <img src="./icons/email.png" style="width: 20px;height: 20px; filter: brightness(0) invert(1);" class="cv_toggle_btn" alt="">
+                                            <img data-cdn-src="icons/email" style="width: 20px;height: 20px; filter: brightness(0) invert(1);" class="cv_toggle_btn" alt="">
                                             <h5 style="background-color: transparent; color:white;   text-transform: lowercase; "> <span style="text-transform: capitalize;">Email:</span> rexm.loba@gmail.com</h5>
                                         </a></div>
                                     </div>
                                 </div>
                                 <br>
                                 <div class="row cv_banner_box" style="background-color: transparent; border: 0;">
-                                    <div class="col"><a href="./files/cv.pdf" target="_blank">
-                                        <center><img src="./icons/resume.png" style="width: 75%; height:75%; filter: brightness(0) invert(1);" class="cv_toggle_btn" alt="" loading="lazy"><br>
+                                    <div class="col"><a data-cdn-href="files/cv" target="_blank">
+                                        <center><img data-cdn-src="icons/resume" style="width: 75%; height:75%; filter: brightness(0) invert(1);" class="cv_toggle_btn" alt="" loading="lazy"><br>
                                         <h6 class="banner_box_icon_text" style="color: white; font-size: 2dvw;">CV</h6></center>
                                     </a></div>
                                     <div class="col"><a href="engagement.html">
-                                        <center><img src="./icons/engagements.png" style="width: 75%; height:75%; filter: brightness(0) invert(1);" class="cv_toggle_btn" alt="" loading="lazy"><br>
+                                        <center><img data-cdn-src="icons/engagements" style="width: 75%; height:75%; filter: brightness(0) invert(1);" class="cv_toggle_btn" alt="" loading="lazy"><br>
                                         <h6 class="banner_box_icon_text" style="color: white; font-size: 2dvw;">Engagement</h6></center>
                                     </a></div>
                                     <div class="col"><a href="experiences.html">
-                                        <center><img src="./icons/careers.png" style="width: 75%; height:75%;  filter: brightness(0) invert(1);" class="cv_toggle_btn" alt="" loading="lazy"><br>
+                                        <center><img data-cdn-src="icons/careers" style="width: 75%; height:75%;  filter: brightness(0) invert(1);" class="cv_toggle_btn" alt="" loading="lazy"><br>
                                         <h6 class="banner_box_icon_text" style="color: white;  font-size: 2dvw;">Career</h6></center>
                                     </a></div>
                                     <div class="col"><a href="RecognitionCertificates.html">
-                                        <center><img src="./icons/recognitions.png" style="width: 75%; height:75%;  filter: brightness(0) invert(1);" class="cv_toggle_btn" alt="" loading="lazy"><br>
+                                        <center><img data-cdn-src="icons/recognitions" style="width: 75%; height:75%;  filter: brightness(0) invert(1);" class="cv_toggle_btn" alt="" loading="lazy"><br>
                                         <h6 class="banner_box_icon_text" style="color: white; font-size: 2dvw;">Recognition</h6></center>
                                     </a></div>
                                 </div>
@@ -461,7 +461,15 @@ const SPA = {
     }
 };
 
-// Initialize SPA when DOM is ready
-document.addEventListener('DOMContentLoaded', () => {
+function startSPA() {
+    if (window.SPA_INITIALIZED) return;
+    window.SPA_INITIALIZED = true;
     SPA.init();
-});
+}
+
+if (document.readyState === 'complete' || document.readyState === 'interactive') {
+    startSPA();
+} else {
+    document.addEventListener('DOMContentLoaded', startSPA);
+}
+window.addEventListener('cdn:ready', startSPA);

@@ -1,11 +1,11 @@
 Maindata = {
-    mainlogosrc: './photos/rxcropped.png',
-    mainprofilephoto: './photos/rxprofile.png',
+    mainlogosrc: asset('photos/rxcropped'),
+    mainprofilephoto: asset('photos/rxprofile'),
 };
 
 const experiencesdata = {
     pcup: {
-        photo: './logos/pcup.png',
+        photo: asset('logos/pcup'),
         name: 'Presidential Commission for the Urban Poor <br>(PCUP)',
         description: `A highly skilled and dedicated professional with extensive experience in urban
 development, community outreach, and poverty alleviation. <br><br>Proven ability to assist
@@ -20,13 +20,13 @@ urban projects and poverty alleviation programs.`,
         title: 'Technical Specialist II'
     },
     blessedmovement: {
-        photo: '<div style="display: flex; justify-content: center; align-items: center; gap: 10px; height: 100%;"><img src="./logos/blessed.png" style="max-height: 100%; width: 50%; object-fit: contain;"><img src="./logos/bagong pilipinas.png" style="max-height: 100%; width: 50%; object-fit: contain;"></div>',
+        photo: '<div style="display: flex; justify-content: center; align-items: center; gap: 10px; height: 100%;"><img data-cdn-src="logos/blessed" style="max-height: 100%; width: 50%; object-fit: contain;"><img data-cdn-src="logos/bagong pilipinas" style="max-height: 100%; width: 50%; object-fit: contain;"></div>',
         name: 'Bagong Pilipinas - <br>Blessed Movement',
         description: `As Vice President for Membership of the Bagong Pilipinas - Blessed Movement, Rex Moran Loba serves as the movement’s strategic backbone, transforming vision into a massive national reality. His leadership is defined by two decisive roles:<br><br><b>National Mobilizer & Architect of Unity:</b> He directly commands the operations that bridge the gap between national policy and grassroots action. By orchestrating membership growth across Luzon, Visayas, and Mindanao, he has built a unified front where every member—from municipal leaders to individual supporters—is synchronized under one mission of national renewal.<br><br><b>Operational Empowerment:</b> Rex is the vital link between members and progress. He ensures that the "task given to all" is met with efficiency, personally overseeing the integration of livelihood programs and digital management systems. His leadership does not just manage a list of names; it secures the welfare of families, ensuring that every member is empowered, protected, and actively contributing to a stronger Philippines.<br><br>Rex Moran Loba’s impact is the strength of the collective. He leads with a commanding operational grip and a deep commitment to service, proving that the Blessed Movement’s greatest asset is the unity of its people.`,
         title: 'Vice President for Membership'
     },
     bigkisbisigco: {
-        photo: '<div style="display: flex; justify-content: center; align-items: center; gap: 10px; height: 100%;"><img src="./logos/BIGKIS LOGO.png" style="max-height: 100%; width: 50%; object-fit: contain;"><img src="./logos/BISIGCO LOGO (2).png" style="max-height: 100%; width: 50%; object-fit: contain;"></div>',
+        photo: '<div style="display: flex; justify-content: center; align-items: center; gap: 10px; height: 100%;"><img data-cdn-src="logos/BIGKIS LOGO" style="max-height: 100%; width: 50%; object-fit: contain;"><img data-cdn-src="logos/BISIGCO LOGO (2)" style="max-height: 100%; width: 50%; object-fit: contain;"></div>',
         name: 'BIGKIS <br>BISIG Cooperative',
         description: `As National President of BIGKIS and General Manager of BISIG Cooperative, Rex Moran Loba commands a tri-regional powerhouse across Luzon, Visayas, and Mindanao. His leadership is defined by two critical pillars:
 
@@ -38,7 +38,7 @@ Rex Moran Loba does not just occupy a position; he carries the weight of a natio
         title: 'National President of BIGKIS<br>General Manager of BISIG Cooperative'
     },
     dubaiholding: {
-        photo: './logos/dubaiHoldingsAlshamsi.png',
+        photo: asset('logos/dubaiHoldingsAlshamsi'),
         name: 'Dubai Holding Group<br>Al Shamsi',
         description: `As a Store Manager, I excel in driving sales and enhancing store performance through strategic space management and exceptional customer service. I collaborate with my team to set budget plans, sales targets, and promotional activities, while providing hands-on training to optimize our selling process.
 <br><br>
@@ -48,7 +48,7 @@ By fostering a culture of motivation and product knowledge, I empower my team to
         title: 'Store Manager',
     },
     alshaya: {
-        photo: './logos/al shaya group.png',
+        photo: asset('logos/al shaya group'),
         name: 'Al Shaya Group',
         description: `As an Assistant Sales Manager, I drive store performance by maximizing sales through effective space management and exceptional customer service. Collaborating closely with my team, I coordinate budget plans, set sales targets, and organize promotions while actively training staff in the selling process to boost performance.
 <br><br>
@@ -58,7 +58,7 @@ I also focus on reducing stock loss by adhering to company policies and utilizin
         title: 'Assistant Sales Manager<br>Training Coordinator'
     },
     smdc: {
-        photo: './logos/smdc.png',
+        photo: asset('logos/smdc'),
         name: 'SM Development Corporation<br>(SMDC)',
         description: `A dynamic and results-driven leader with a strong track record in motivating and guiding
 teams to exceed organizational goals.<br><br>Experienced in conducting forecast analysis,
@@ -71,7 +71,7 @@ reach their full potential, and ensuring a cohesive approach to success.`,
         title: 'Operation Specialist'
     },
     manilawater: {
-        photo: './logos/Manila_Water_logo.svg.png',
+        photo: asset('logos/Manila_Water_logo.svg'),
         name: 'Manila Water',
         description: `As the Operations Manager for the Collection and Disconnection Team at Manila Water Company, I oversee the seamless operations of both teams, setting performance targets and optimizing productivity while ensuring compliance with company policies. I manage customer communications regarding billing, payments, and disconnections, always aiming to enhance the customer experience.
 
@@ -80,7 +80,7 @@ During My Tenure I was able to improve the collection rate from 60% to 85%. I wa
         title: 'Operation Manager <br>on<br> Collection and Disconnection'
     },
     dbp: {
-        photo: './logos/DBP.png',
+        photo: asset('logos/DBP'),
         name: 'Development Bank of the Philippines',
         description: `As a Contractual Employee at the Development Bank of the Philippines (DBP) in the Loan Division and Accounting Department, I assist in processing and documenting loan applications, ensuring meticulous record-keeping and supporting loan approval procedures. Collaborating with my team, I prepare financial reports, track loan disbursements, and monitor repayments.
 <br><br>
@@ -96,7 +96,7 @@ const engagementsdata =
 
     "BIGKIS and BISIGCO": [{
         meetingname: 'National Leadership and Cooperative Management',
-        photo: './EngagementPhotos/bigkis.jpg',
+        photo: asset('EngagementPhotos/bigkis'),
         description: `Rex Moran Loba stands as a formidable pillar of Filipino leadership, seamlessly bridging the diverse landscapes of Luzon, Visayas, and Mindanao. As the National President of BIGKIS and General Manager of BISIGCO, he embodies a rare synthesis of strategic power and profound empathy.<br><br>
         His leadership is not defined by mere titles, but by his "Bigkis Inc" spirit—a commitment to binding people together through shared prosperity and mutual respect.<br><br>
         Rex manages with a "heart for the member," ensuring that while the cooperative grows in national influence, it never loses its humane touch. He is a visionary who leads with a firm hand and an open heart, proving that the strongest organizations are built on trust, unity, and the unwavering belief that no one should be left behind.`,
@@ -104,20 +104,20 @@ const engagementsdata =
     ],
     "Bagong Pilipinas - Blessed Movement": [{
         meetingname: 'Vice President of Membership',
-        photo: './EngagementPhotos/blessed_movement.jpg',
+        photo: asset('EngagementPhotos/blessed_movement'),
         description: `Rex Moran Loba serves as a cornerstone of the Bagong Pilipinas - Blessed Movement, where he leads the entire national operation with a decisive and transformative vision. As the Vice President of Membership, Rex does more than just manage numbers; he cultivates a movement of unity and purpose, steering the organization toward a future defined by collective strength and social impact. His leadership is marked by a rare combination of operational excellence and a deep, humane commitment to every individual he serves. By harmonizing high-level strategic directives with grassroots empowerment, Rex has proven that true leadership is the ability to inspire action while maintaining the integrity of the mission. Under his guidance, the Blessed Movement stands as a testament to what is possible when power is wielded with compassion and a relentless drive for national progress.`,
     },
     ],
     "Presidential Commission For the Urban Poor": [{
         meetingname: 'FOD Visayas - Year End Assessment and General Assembly ',
-        photo: './EngagementPhotos/0.jpg',
+        photo: asset('EngagementPhotos/0'),
         description: `The Presidential Commission for the Urban Poor’s Field Operations Division (FOD) in Visayas held a General Assembly to engage stakeholders in addressing key issues affecting urban poor communities.<br><br>
         The event highlighted past achievements, areas for improvement, and the need for a more strategic approach to program planning and execution.<br><br>
         Mr. Rex Moran Loba, as Technical Specialist II, plays a crucial role in guiding initiatives to align with industry standards. PCUP and FOD Visayas remain committed to collaboration, resource mobilization, and sustainable urban development for marginalized communities.`,
     },
     {
         meetingname: 'IFUGAO LGU - Partnership Engagement',
-        photo: './EngagementPhotos/1.jpg',
+        photo: asset('EngagementPhotos/1'),
         description: `A strong partnership between Local Government Units (LGUs) and the national government was highlighted, emphasizing their sincere appreciation and full support for various national programs aimed at improving the lives of communities.<br><br>
         This collaboration underscores the commitment of both local and national leaders to work hand in hand in addressing key issues, implementing sustainable initiatives, and ensuring the effective delivery of services.<br><br>
         By fostering unity and cooperation, LGUs and the national government can create a more inclusive and progressive society that prioritizes the welfare and development of all communities.
@@ -127,7 +127,7 @@ const engagementsdata =
     },
     {
         meetingname: 'Global Collaboration for Urban Poor Livelihoods',
-        photo: './EngagementPhotos/2.jpg',
+        photo: asset('EngagementPhotos/2'),
         description: `The meeting between PCUP and the Urban Poor Leaders brought together international partners and key stakeholders to discuss strategies for enhancing livelihood programs for urban poor communities.<br><br>
         The discussion emphasized the importance of resource mobilization, policy support, and cross-sector collaboration in creating long-term solutions.<br><br>
         This engagement reaffirmed the collective dedication to empowering marginalized communities through inclusive and impactful livelihood initiatives.<br><br>
@@ -135,7 +135,7 @@ const engagementsdata =
     },
     {
         meetingname: 'Partnership Engagement Between Valuenzuela LGU and National Government',
-        photo: './EngagementPhotos/3.jpg',
+        photo: asset('EngagementPhotos/3'),
         description: `
         The meeting between PCUP Chairman, Mr. Rex Moran Loba II, and Mayor Wes Gatchalian of Valenzuela focused on implementing national programs to address urban poverty in the city.<br><br>
         Their collaboration strengthens efforts to create solutions for housing, healthcare, and livelihood support for the urban poor.
@@ -143,7 +143,7 @@ const engagementsdata =
     },
     {
         meetingname: 'Partnership Between Mandaluyong LGU and National Goverment',
-        photo: './EngagementPhotos/4.jpg',
+        photo: asset('EngagementPhotos/4'),
         description: `
        The meeting between PCUP Chairman, Mr. Rex Moran Loba , and Mayor Menchie Abalos of Mandaluyong focused on implementing national programs to address urban poverty.<br><br>
        Their collaboration highlights a shared commitment to creating inclusive, actionable solutions for the city's urban poor.
@@ -151,14 +151,14 @@ const engagementsdata =
     },
     {
         meetingname: 'Partnership Between Batanes LGU and National Goverment',
-        photo: './EngagementPhotos/5.jpg',
+        photo: asset('EngagementPhotos/5'),
         description: `
       This collaboration is vital for the success and sustainability of initiatives improving the lives of urban poor populations.<br><br>By working together, the national government and local LGUs are better equipped to implement impactful programs that create real change for the urban poor.
         `,
     },
     {
         meetingname: 'Partnership Between PCUP and DILG',
-        photo: './EngagementPhotos/5a.jpg',
+        photo: asset('EngagementPhotos/5a'),
         description: `
       The Department of the Interior and Local Government led a productive discussion on implementing national programs to address the urgent needs of the urban poor, emphasizing a shared commitment to developing inclusive and actionable solutions for urban poverty.<br><br>
       Issues like poverty and social inequality. Both parties acknowledged the significant value of mutual exchange, technical assistance, and resource mobilization as effective tools to support the successful implementation of programs designed to uplift marginalized communities.
@@ -171,13 +171,13 @@ const engagementsdata =
     ],
     "Al Shamsi Holdings and Dubai Holdings Group": [{
         meetingname: 'Year End awarding Ceremony',
-        photo: './EngagementPhotos/6.jpg',
+        photo: asset('EngagementPhotos/6'),
         description: `Honored with the Manager of the Year Award by Dubai Holdings and Al Shamsi Holdings, selected from across the Arab region, for his exceptional leadership, team development, and proactive approach.<br><br>
         Highly adaptable, he excels both independently and in team settings.`,
     },
     {
         meetingname: 'Comprehensive Training on People Management',
-        photo: './EngagementPhotos/7.jpg',
+        photo: asset('EngagementPhotos/7'),
         description: `Rex Moran Loba as the Retail Store Manager for Dubai Mall, conducted a comprehensive training session for all staff members of Al Shamsi Holdings focusing on the People Management Program.<br><br>
         The training covered key areas crucial for effective leadership and team development, including:<br><br>
         1. Self Management<br>
@@ -193,7 +193,7 @@ const engagementsdata =
     "Al SHAYA GROUP LLC – KINGDOM OF  BAHRAIN": [
         {
             meetingname: 'Active Selling Program for Debenhams Bahrain',
-            photo: './EngagementPhotos/8.jpg',
+            photo: asset('EngagementPhotos/8'),
             description: `
             A training session on the Active Selling Program was conducted by Rex Moran Loba for Debenhams under the Alshaya Group of Companies at the Bahrain City Center.<br>
             The training focused on enhancing commercial awareness among the staff, covering key components such as:<br><br>
@@ -209,7 +209,7 @@ const engagementsdata =
     "SM Development Corporation (SMDC)": [
         {
             meetingname: 'Real Estate Investment for Empowering OFWs',
-            photo: './EngagementPhotos/10.jpg',
+            photo: asset('EngagementPhotos/10'),
             description: `
             Empowering OFWs: Operations Specialist Rex Moran Loba Training on Real Estate Investment at SMDC<br><br>
             Mr. Rex Moran Loba, Operations Specialist at SMDC, manages international brokers and training on real estate investment for overseas Filipino workers (OFWs).<br><br>
@@ -226,7 +226,7 @@ const engagementsdata =
 let recognitioncertificates = {
     'Recognitions': [
         {
-            photo: './RecognitionPhotos/Recognition/1.jpg',
+            photo: asset('RecognitionPhotos/Recognition/1'),
             name: `Okaidi Obaibi Certificate of Appreciation`,
             'description': `Certificate of Appreciation awarded by Okaidi and Al Shamsi Holdings for Managing the following Brands with excellent sales:<br><br>
             Vincci<br>
@@ -238,7 +238,7 @@ let recognitioncertificates = {
         },
 
         {
-            photo: './RecognitionPhotos/Recognition/2.jpg',
+            photo: asset('RecognitionPhotos/Recognition/2'),
             name: `Okaidi Obaibi Certificate of A`,
             description: `Certificate of Appreciation awarded to Rex Moran Loba for Excellent Management for the following Brands:<br><br>
             Vincci<br>
@@ -249,42 +249,42 @@ let recognitioncertificates = {
 
         },
         {
-            photo: './RecognitionPhotos/Recognition/3.jpg',
+            photo: asset('RecognitionPhotos/Recognition/3'),
             name: `Mystery Shopper Activity Results`,
             'description': `
             Outstanding Results from Mystery Shopper Customer Service Evaluation. Where the company would hire a third party to evaluate the customer service of the employees.<br><br>The results are as 100 percent score for Deira City Center Which is managed by Rex Moran Loba.<br>
             `,
         },
         {
-            photo: './RecognitionPhotos/Recognition/4.jpg',
+            photo: asset('RecognitionPhotos/Recognition/4'),
             name: `End of Year Inventory Results`,
             'description': `
             Excellent End of Year Inventory Results for Okaidi Obaibi where there are only 28 pieces Shortage out of 20717 pieces.<br><br>It was originally 140+ units per year.
             `,
         },
         {
-            photo: './RecognitionPhotos/Recognition/5.jpg',
+            photo: asset('RecognitionPhotos/Recognition/5'),
             name: `Top Spot for IPC Dubai Marina`,
             'description': `
             Top Spot for Item per Customer ratings in Dubai Marina Mall.
             `,
         },
         {
-            photo: './RecognitionPhotos/Recognition/6.jpg',
+            photo: asset('RecognitionPhotos/Recognition/6'),
             name: `1 Million Sales per Month`,
             'description': `
             Achieved 1 Million Sales before the end of the Month for Okaidi Mall of Emirates for the first time in the history of the store.
             `,
         },
         {
-            photo: './RecognitionPhotos/Recognition/7.jpg',
+            photo: asset('RecognitionPhotos/Recognition/7'),
             name: `Employee of the Year`,
             'description': `
             Received Employee of the year Award as Store Manager for Okaidi Obaibi in 2017
             `,
         },
         {
-            photo: './RecognitionPhotos/Recognition/8.jpg',
+            photo: asset('RecognitionPhotos/Recognition/8'),
             name: `Completion of Manager Training`,
             'description': `
             I had the privilege of judging the English Musical Dramatization Competition in Dubai, UAE, where I evaluated outstanding performances that highlighted creativity, vocal talent, and storytelling.<br><br>
@@ -292,7 +292,7 @@ let recognitioncertificates = {
             `,
         },
         {
-            photo: './RecognitionPhotos/Recognition/9.jpg',
+            photo: asset('RecognitionPhotos/Recognition/9'),
             name: `Food and Craft Fair Competition`,
             'description': `
             I had the honor of serving as a judge for the Food and Craft Fair Competition in Dubai, UAE. In this role, I had the opportunity to assess a wide range of creative displays and innovations in both food and craftsmanship.<br><br>
@@ -300,14 +300,14 @@ let recognitioncertificates = {
             `,
         },
         {
-            photo: './RecognitionPhotos/Recognition/10.jpg',
+            photo: asset('RecognitionPhotos/Recognition/10'),
             name: `Outstanding Sales Performance During Super Sale Event`,
             'description': `
             Achieved exceptional sales performance during the super sale event, driving significant customer engagement and boosting overall revenue.
             `,
         },
         {
-            photo: './RecognitionPhotos/Recognition/11.jpg',
+            photo: asset('RecognitionPhotos/Recognition/11'),
             name: `Forum in expanding opportunities for Urban Poor in Partnership in LGUs`,
             'description': `
            We held a forum to discuss expanding opportunities for the urban poor in collaboration with Local Government Units (LGUs),<br><br>
@@ -315,14 +315,14 @@ let recognitioncertificates = {
             `,
         },
         {
-            photo: './RecognitionPhotos/Recognition/12.jpg',
+            photo: asset('RecognitionPhotos/Recognition/12'),
             name: `Guest Speaker of Matric Intelligence Group`,
             'description': `
           As a guest speaker for Matrix Intelligence Group, I shared valuable insights on security measures, offering key perspectives to enhance decision-making and drive innovation. It was a rewarding experience to contribute to the professional growth of the attendees.
             `,
         },
         {
-            photo: './RecognitionPhotos/Recognition/13.jpg',
+            photo: asset('RecognitionPhotos/Recognition/13'),
             name: `Best Manager for Achieving Year-End Targets`,
             'description': `
          Recognized as Best Manager for meeting year-end targets across all business criteria, successfully running operations with a short staff while managing over 30,000 units with only a 27-unit inventory discrepancy.<br><br>
@@ -331,7 +331,7 @@ let recognitioncertificates = {
         },
 
         {
-            photo: './RecognitionPhotos/Recognition/15.jpg',
+            photo: asset('RecognitionPhotos/Recognition/15'),
             name: `Achieved 100% Mystery Shopper`,
             'description': `
         Achieved a 100% rating in the Mystery Shopper evaluation, reflecting excellent customer service and highlighting my commitment to maintaining high standards in the store.
@@ -344,77 +344,77 @@ let recognitioncertificates = {
 
     "Certifications": [
         {
-            photo: './RecognitionPhotos/Certificates/0.jpg',
+            photo: asset('RecognitionPhotos/Certificates/0'),
             name: 'PCUP Planning',
             'description': 'Certificate for Conducting National Planning at Tagaytay for PCUP Staff.'
         },
         {
-            photo: './RecognitionPhotos/Certificates/1.jpg',
+            photo: asset('RecognitionPhotos/Certificates/1'),
             name: 'Commendable Employee of DBP',
             'description': 'Certification for being a Commendable Employee at Development Bank of the Philippines.'
         },
         {
-            photo: './RecognitionPhotos/Certificates/2.jpg',
+            photo: asset('RecognitionPhotos/Certificates/2'),
             name: 'Customer Service Training - TT20',
             'description': 'Certification for Completing the Customer Service Training TT20 - Train the Trainer. <br><br>A Customer Service Training for Managers.'
         },
         {
-            photo: './RecognitionPhotos/Certificates/3.jpg',
+            photo: asset('RecognitionPhotos/Certificates/3'),
             name: 'Appraisal Training',
             'description': 'Certification for Completing the Appraisal Traing. <br><br>Training Managers to  Identify and Develop Employees for Appraisal Evaluation.'
         },
         {
-            photo: './RecognitionPhotos/Certificates/4.jpg',
+            photo: asset('RecognitionPhotos/Certificates/4'),
             name: 'Manila Water Certificate of Employement',
             'description': 'Manila Water Certificate of Employment for being an Operations Manager.'
         },
         {
-            photo: './RecognitionPhotos/Certificates/5.jpg',
+            photo: asset('RecognitionPhotos/Certificates/5'),
             name: 'Occupation Safety and Health Training Completion',
             'description': 'Certificate of Completion of the 40 Hour Comprehensive Occupation Safety Training.'
         },
         {
-            photo: './RecognitionPhotos/Certificates/6.jpg',
+            photo: asset('RecognitionPhotos/Certificates/6'),
             name: 'Certificate of Employment SMDC',
             'description': 'Certificate of Employment for SM Development Corporation as International Broker.'
         },
         {
-            photo: './RecognitionPhotos/Certificates/7.jpg',
+            photo: asset('RecognitionPhotos/Certificates/7'),
             name: 'Certificate of Travel as Operations Specialist of SMDC',
             'description': 'Certificate of Travel Allowance as Operations Specialist of SMDC.'
         },
         {
-            photo: './RecognitionPhotos/Certificates/8.jpg',
+            photo: asset('RecognitionPhotos/Certificates/8'),
             name: 'Certificate of Employment (Al Shaya)',
             'description': 'Certificate of Employment for Al Shaya Trading as Assistant Sales Manager.'
         },
         {
-            photo: './RecognitionPhotos/Certificates/9.jpg',
+            photo: asset('RecognitionPhotos/Certificates/9'),
             name: 'Certificate of Recognition (International Broker)',
             'description': 'Certificate of Recognition as International Broker for SM Development Corporation.'
         },
         {
-            photo: './RecognitionPhotos/Certificates/10.jpg',
+            photo: asset('RecognitionPhotos/Certificates/10'),
             name: 'How To Gain Control of Your Life',
             'description': 'Attending a Workshop Seminar titled: "How to Gain Control of Your Life and & Increase Productivity".'
         },
         {
-            photo: './RecognitionPhotos/Certificates/11.jpg',
+            photo: asset('RecognitionPhotos/Certificates/11'),
             name: 'Store Manager Certificate',
             'description': 'Certificate of Employment Store Manager for Al Shamsi.'
         },
         {
-            photo: './RecognitionPhotos/Certificates/12.jpg',
+            photo: asset('RecognitionPhotos/Certificates/12'),
             name: 'Dubai Holdings Store Manager ID',
             'description': 'ID for Dubai Holdings as Store Manager.'
         },
         {
-            photo: './RecognitionPhotos/Certificates/13.jpg',
+            photo: asset('RecognitionPhotos/Certificates/13'),
             name: 'University of Michigan',
             'description': 'Certificate of Completing of a 6 months Study titled: "Research on Migrant Remittances."<br><br>A study about the effect of Migrant Remittances on Taxes and Economy.'
         },
         {
-            photo: './RecognitionPhotos/Certificates/14.jpg',
+            photo: asset('RecognitionPhotos/Certificates/14'),
             name: 'Meeting with Mayors of Occidental Mindoro',
             'description': 'Certificate of Appearance for attending a meeting with Municipal Mayors of Occidental Mindoro.'
         },
@@ -432,49 +432,49 @@ const IndexCompanyList = [
     {
         name: 'Presidential Commission for the Urban Poor<br>(PCUP)',
         href: './experiences.html#pcup',
-        imgsrc: './logos/pcup.png',
+        imgsrc: asset('logos/pcup'),
         col: ''
     },
     {
         name: 'Dubai Holding Group',
         href: './experiences.html#dubaiholding',
-        imgsrc: './logos/dubai Holding group.png',
+        imgsrc: asset('logos/dubai Holding group'),
         col: ''
     },
     {
         name: 'Al Shaya Group',
         href: './experiences.html#alshaya',
-        imgsrc: './logos/al shaya group.png',
+        imgsrc: asset('logos/al shaya group'),
         col: ''
     },
     {
         name: 'SM Development Corporation<br>(SMDC)',
         href: './experiences.html#smdc',
-        imgsrc: './logos/smdc.png',
+        imgsrc: asset('logos/smdc'),
         col: ''
     },
     {
         name: 'Manila Water',
         href: './experiences.html#manilawater',
-        imgsrc: './logos/Manila_Water_logo.svg.png',
+        imgsrc: asset('logos/Manila_Water_logo.svg'),
         col: ''
     },
     {
         name: 'Development Bank of the Philippines',
         href: './experiences.html#dbp',
-        imgsrc: './logos/DBP.png',
+        imgsrc: asset('logos/DBP'),
         col: ''
     },
     {
         name: 'Blessed Movement',
         href: './experiences.html#blessedmovement',
-        imgsrc: './logos/blessed.png',
+        imgsrc: asset('logos/blessed'),
         col: ''
     },
     {
         name: 'BIGKIS & BISIG Cooperative',
         href: './experiences.html#bigkisbisigco',
-        imgsrc: './logos/BIGKIS LOGO.png',
+        imgsrc: asset('logos/BIGKIS LOGO'),
         col: ''
     }
 

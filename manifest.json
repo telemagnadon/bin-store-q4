@@ -1,5 +1,5 @@
 {
-  "version": "da93af6bcc690a2a764c859264862f18131a3f11",
+  "version": "PENDING",
   "assets": {
     "EngagementPhotos/0": "a/4075c108f018.bin",
     "EngagementPhotos/1": "a/9006ab0886ef.bin",
@@ -45,8 +45,8 @@
     "Portfolio Responsive HTML Template_files/loader": "a/9d6653e21227.bin",
     "Portfolio Responsive HTML Template_files/logo": "a/03dcf5948dba.bin",
     "Portfolio Responsive HTML Template_files/pi": "a/55cf095e9254.bin",
-    "Portfolio Responsive HTML Template_files/responsive.css": "a/9952b5ce7196.css",
-    "Portfolio Responsive HTML Template_files/style.css": "a/788b3b972dab.css",
+    "Portfolio Responsive HTML Template_files/responsive.css": "a/5b7a33596d76.css",
+    "Portfolio Responsive HTML Template_files/style.css": "a/6b99ebeef80f.css",
     "Portfolio Responsive HTML Template_files/swiper-bundle.css": "a/53cd5cce9e3d.css",
     "Portfolio Responsive HTML Template_files/swiper-bundle.min.js": "a/a1c9ba074f8f.js",
     "Portfolio Responsive HTML Template_files/tw": "a/678502849cb8.bin",
@@ -111,11 +111,11 @@
     "logos/dubaiHoldingsAlshamsi": "a/8a5e66fb8f10.bin",
     "logos/pcup": "a/0ebe70543019.bin",
     "logos/smdc": "a/5a2b463e5919.bin",
-    "main.css": "a/853c99d51140.css",
-    "maindata.js": "a/42870fce6abe.js",
+    "main.css": "a/9f117f5f02cd.css",
+    "maindata.js": "a/210c3c9465dc.js",
     "myjs.js": "a/4e671b157f9d.js",
     "photos/rxcropped": "a/6f276fbe4740.bin",
     "photos/rxprofile": "a/98d9d720dea9.bin",
-    "spa.js": "a/fc6475c2fec6.js"
+    "spa.js": "a/6e80eade4645.js"
   }
 }
