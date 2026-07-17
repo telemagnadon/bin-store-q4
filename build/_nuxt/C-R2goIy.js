@@ -1,0 +1,1 @@
+function B(){function r(t){if(t===0)return"0 B";const u=["B","KB","MB","GB","TB"],o=1024,n=Math.floor(Math.log(t)/Math.log(o));return`${(t/Math.pow(o,n)).toFixed(1)} ${u[n]}`}return{formatBytes:r}}export{B as u};
