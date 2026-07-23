@@ -1,5 +1,5 @@
 {
-  "version": "05ef0b35c38385fc55d73ae682ed90b968b69d57",
+  "version": "PENDING",
   "assets": {
     "EngagementPhotos/0": "a/4075c108f018.bin",
     "EngagementPhotos/1": "a/9006ab0886ef.bin",
@@ -24,6 +24,14 @@
     "EngagementPhotos/backup/8": "a/d7274cb78a58.bin",
     "EngagementPhotos/backup/9": "a/28927c0b4932.bin",
     "EngagementPhotos/bigkis": "a/5faa0f8455dd.bin",
+    "EngagementPhotos/bigkis-anniversary": "a/89216d89053d.bin",
+    "EngagementPhotos/bigkis-cardona": "a/ff219c6c4bb6.bin",
+    "EngagementPhotos/bigkis-ifugao-peso": "a/c152052044c3.bin",
+    "EngagementPhotos/bigkis-mindoro-governor": "a/14ffce8a794c.bin",
+    "EngagementPhotos/bigkis-region10-slp": "a/b56516f6353f.bin",
+    "EngagementPhotos/bigkis-sanrafael-mushroom": "a/fb07e52b367f.bin",
+    "EngagementPhotos/bigkis-santiago-tupad": "a/cb1ddfe2f1a4.bin",
+    "EngagementPhotos/bigkis-solano-garden": "a/3d980c29804b.bin",
     "EngagementPhotos/blessed_movement": "a/c52d02f99b36.bin",
     "Portfolio Responsive HTML Template_files/SmoothScroll.min.js": "a/86e5bbc9697b.js",
     "Portfolio Responsive HTML Template_files/banner-boy": "a/174491b9dadb.bin",
@@ -111,11 +119,11 @@
     "logos/dubaiHoldingsAlshamsi": "a/8a5e66fb8f10.bin",
     "logos/pcup": "a/0ebe70543019.bin",
     "logos/smdc": "a/5a2b463e5919.bin",
-    "main.css": "a/cb979c8ee2cd.css",
-    "maindata.js": "a/3eb10b933723.js",
+    "main.css": "a/d835c301e613.css",
+    "maindata.js": "a/08770fb7ea0c.js",
     "myjs.js": "a/4e671b157f9d.js",
     "photos/rxcropped": "a/6f276fbe4740.bin",
     "photos/rxprofile": "a/98d9d720dea9.bin",
-    "spa.js": "a/3a0517975d4a.js"
+    "spa.js": "a/5a6e22d4db34.js"
   }
 }
